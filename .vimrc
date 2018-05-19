@@ -16,6 +16,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-surround'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'w0rp/ale'
+Plugin 'luochen1990/rainbow'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -89,3 +90,6 @@ let g:airline_symbols.whitespace = 'Ξ'
 """"" Auto-pairs settings
 " Enable FlyMode
 let g:AutoPairsFlyMode = 1
+
+""""" Enable color-coded brackets
+let g:rainbow_active = 1 " Use :RainbowToggle to turn it off/on in the editor.
